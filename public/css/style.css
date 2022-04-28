@@ -27,7 +27,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    color: chartreuse;
 }
 input[type=text]{
     width: 100%;
@@ -38,7 +37,7 @@ input[type=text]{
     height: 120px;
     align-content: center;
     margin-inline: auto;
-    background-color: black ;
+    background-color: rgba(0, 0, 0, 0.349) ;
     font-size: 25pt;
     color: chartreuse;
 }
