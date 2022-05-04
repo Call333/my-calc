@@ -7,6 +7,7 @@ body {
     width: 120px;
     height: 80px;
     font-size: 15pt;
+    border-style: solid;
 }
 .buttonsinal {
     background-color: rgb(146, 118, 118);
@@ -23,7 +24,7 @@ body {
     flex-direction: column;
     justify-content: center;
     width: 40%;
-    background: url("https://www.petz.com.br/blog/wp-content/uploads/2017/04/comportamento-dos-gatos-1.jpg");
+    background: url("https://www.dicaspetz.com.br/wp-content/uploads/2020/04/curiosidades-sobre-calopsitas-pet.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -37,7 +38,7 @@ input[type=text]{
     height: 120px;
     align-content: center;
     margin-inline: auto;
-    background-color: rgba(0, 0, 0, 0.349) ;
+    background-color: rgba(0, 0, 0, 0.212) ;
     font-size: 25pt;
-    color: chartreuse;
+    color: rgba(99, 114, 84, 0.589);
 }
