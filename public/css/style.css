@@ -1,5 +1,10 @@
 body { 
-    background-color: lightblue; 
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 75vh;
 }
 
 .button {
@@ -8,12 +13,16 @@ body {
     height: 80px;
     font-size: 15pt;
     border-style: solid;
+    border-radius: 1rem;
 }
 .buttonsinal {
     background-color: rgb(146, 118, 118);
     width: 120px;
     height: 80px;
     font-size: 15pt;
+    border-radius: 1rem;
+    border-style: solid;
+    border-color: rgb(219, 180, 180);
 }
 
 .container {
@@ -28,6 +37,9 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 1rem;
+    align-content: center;
+    
 }
 input[type=text]{
     width: 100%;
@@ -41,4 +53,6 @@ input[type=text]{
     background-color: rgba(0, 0, 0, 0.219) ;
     font-size: 25pt;
     color: rgba(199, 163, 46, 0.664);
+    border-radius: 1rem;
+    border-style: solid;
 }
