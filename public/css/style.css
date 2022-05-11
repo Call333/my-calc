@@ -55,4 +55,5 @@ input[type=text]{
     color: rgba(199, 163, 46, 0.664);
     border-radius: 1rem;
     border-style: solid;
+    text-align: right;
 }
