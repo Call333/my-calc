@@ -16,14 +16,14 @@ var valor1 = 0
 function atualizarOperacao(btn){
     const display = document.getElementById('display');
     operador = btn.getAttribute('operacao');
-    valor1 = parseFloat(display.value);
-    display.value = '0';
+    valor1 = display.value;
+    // display.value = '0';
 }
 // =
 function calcularOperacao(){
     const display = document.getElementById('display');
-    const valor2 = parseFloat(display.value);
-    valor1 = eval(valor1+operador+valor2);
+    const valor2 = display.value;
+    valor1 = eval(valor2);
     display.value = valor1;
     operador = '';
 }    
